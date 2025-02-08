@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Meu site</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Login</h2>
+
+        <form>
+            <label>Login</label><br>
+            <input type="text" name="login"><br>
+            <label>Senha</label><br>
+            <input type="password" name="senha"><br>
+            <input type="button" value="Logar"><br>
+        </form>
+
+        <h2>Cadastre-se</h2>
+        <form>
+            <label>Login</label><br>
+            <input type="text" name="login_cadastro"><br>
+            
+            <label>Sexo</label><br>
+            <!-- Ao colocar o mesmo atributo name="sexo", html entende que só 1 deve ser marcado-->
+            <input type="radio" name="sexo" value="M">Masculino<br>
+            <input type="radio" name="sexo" value="F">Feminino<br>
+
+            <label>Interesses:</label><br>
+            <input type="checkbox" name="interesses">Carros<br>
+            <input type="checkbox" name="interesses">Jogos<br>
+            <input type="checkbox" name="interesses">Esportes<br>
+            <input type="checkbox" name="interesses">Livros<br>
+
+            <label>Estado</label><br>
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="rj">RJ</option>
+                <option value="rj">ES</option>
+            </select>
+
+            <label>Observações:</label><br>
+            <textarea name="observacoes"></textarea><br><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>
