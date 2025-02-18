@@ -5,7 +5,7 @@ body {
 }
 
 #principal {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 900px;
 }
 
@@ -27,6 +27,14 @@ a {
 
 }
 
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
 .centralizar {
     text-align: center;
+}
+
+.img_campanhas {
+    border: 10px solid #c3c3ae;
 }
