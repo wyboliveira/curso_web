@@ -1,0 +1,61 @@
+/* Seletor universal */
+
+* {
+    border: 1px solid blue;
+}
+
+/* Seletor de texto */
+
+h1 {
+    color: green;
+}
+
+/* Seletor de Classe */
+
+.purple {
+    color: purple;
+}
+
+p.purple {
+    color: violet;
+}
+
+/* Seletor de ID */
+
+#quadrado {
+    border: 2px solid black;
+    background: cyan;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+/* Seletor de Filho direto ao elemento */
+
+li>a{
+    color: red;
+    text-decoration: none;
+}
+
+/* Seletor de Descendentes */
+
+p a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Seletor de irmão adjacente */
+/* Seleciona o primeiro elemento depois de qualquer elemento especificado,
+mas não outros elementos */
+
+h2+span{
+    color: greenyellow;
+}
+
+/* Seletor de irmão geral */
+/* Seleciona um elemento que é irmão de outro, embora ele não precise ser 
+o elemento diretamente precedente */
+
+h3~p{
+    color: greenyellow;
+}
