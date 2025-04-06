@@ -1,0 +1,35 @@
+/******* Barra de Navegação Vertical ********/
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../images/seta.png) no-repeat center left;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    /* border: 1px red solid; */
+    width: 200px;
+    height: 40px;
+    color: #000000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    display: block;
+    background: url(../images/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: #ffffff;
+}
