@@ -57,5 +57,5 @@ h2+span{
 o elemento diretamente precedente */
 
 h3~p{
-    color: greenyellow;
+    color: rgb(255, 47, 245);
 }
