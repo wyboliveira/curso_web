@@ -72,3 +72,42 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
+/* Configura layout de três colunas */
+#conteudo {
+    margin-top: 60px;
+    background: #bebebe;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+    background: green;
+}
+#secundario {
+    width: 270px;
+    float: left;
+    margin:  0 0 20px 15px;
+    background: blue;
+}
+/* Essa lateral é colocada na esquerda usando um afastamento de margem
+em conjunto com o #primario, para que leitores automatizados leiam
+primeiro o conteúdo da div #primario */
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #ffffff;
+}
