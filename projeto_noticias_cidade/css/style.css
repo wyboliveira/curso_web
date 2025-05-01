@@ -79,18 +79,6 @@ body.fotos #navegacao a#fotos {
     background: #bebebe;
 }
 
-#primario {
-    width: 270px;
-    margin: 0 0 20px 195px;
-    float: left;
-    background: green;
-}
-#secundario {
-    width: 270px;
-    float: left;
-    margin:  0 0 20px 15px;
-    background: blue;
-}
 /* Essa lateral é colocada na esquerda usando um afastamento de margem
 em conjunto com o #primario, para que leitores automatizados leiam
 primeiro o conteúdo da div #primario */
@@ -98,7 +86,48 @@ primeiro o conteúdo da div #primario */
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: yellow;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+    background: green;
+}
+
+#duas_colunas #primario {
+    width: 555px;
+}
+
+#uma_coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin:  0 0 20px 15px;
+    background: blue;
+}
+/* Formatação caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.caixa_conteudo {
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 #container-rodape{
