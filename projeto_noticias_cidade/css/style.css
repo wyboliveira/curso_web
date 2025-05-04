@@ -92,7 +92,6 @@ primeiro o conteúdo da div #primario */
     width: 270px;
     margin: 0 0 20px 195px;
     float: left;
-    background: green;
 }
 
 #duas_colunas #primario {
@@ -108,7 +107,6 @@ primeiro o conteúdo da div #primario */
     width: 270px;
     float: left;
     margin:  0 0 20px 15px;
-    background: blue;
 }
 /* Formatação caixa */
 .caixa {
@@ -167,6 +165,30 @@ input.submit {
     background-color: #b10333;
     border: 2px solid #870529;
 
+}
+
+/* Formatando imagens */
+
+img.imagem_principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #ffffff;
+}
+
+.entrevista h3 {
+    background: #de003e;
 }
 
 /* Rodapé */
