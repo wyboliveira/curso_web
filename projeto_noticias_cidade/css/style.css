@@ -191,6 +191,38 @@ h3 {
     background: #de003e;
 }
 
+/* Formatando lista de notícias */
+
+#lista_noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 62px;
+}
+
+#lista_noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista_noticias li a {
+    text-decoration: none;
+}
+
+#lista_noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista_noticias li a p {
+    font-size: 0.7em;
+}
+
+#lista_noticias li:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
 /* Rodapé */
 #container-rodape{
     background: #294c71;

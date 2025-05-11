@@ -8,9 +8,10 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-    <body class="fotos">
-
+    <body id="uma_coluna" class="fotos">
+        <!-- Início do container -->
         <div id="container">
+            <!-- Início do topo -->
             <div id="topo">
                 <h1 class="logo">Notícias Cidade</h1>
                 <ul id="navegacao">
@@ -22,8 +23,155 @@
                     <li><a id= "fotos" href="fotos.html">Fotos</a></li>
                 </ul>
             </div>
+            <!-- Fim do topo -->
+             <!-- Início do conteúdo -->
+            <div id="conteudo">
+                <div id="primario">
+                    <div class="caixa destaque">
+                        <h2>Destaque</h2>
+                        <div class="caixa_conteudo">
+                            <h3>Nova legisção</h3>
+                            <img class="imagem_principal" src="images/taxi.jpg" width="100%">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Incidunt nihil iure reiciendis, minus ex?
+                            </p>
+                            <a href="">Leia mais</a>
+                        </div>
+                    </div>
+                    <div class="caixa">
+                        <h2>Mundo</h2>
+                        <div class="caixa_conteudo">
+                            <ul id="lista_noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="images/tecnologia.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/tecnologia.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/tecnologia.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/tecnologia.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
+                <div id="secundario">
+                    <div class="caixa entrevista">
+                        <h2>Última entrevista</h2>
+                        <div class="caixa_conteudo">
+                            <h3>Entrevista com Felipe Silva</h3>
+                            <img class="imagem_principal" src="images/doutor.jpg" width="100%">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Incidunt nihil iure reiciendis, minus ex?
+                            </p>
+                            <a href="">Leia mais</a>
+                        </div>
+                    </div>
+                    <div class="caixa">
+                        <h2>Notícias recentes</h2>
+                        <div class="caixa_conteudo">
+                            <ul id="lista_noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="images/cidade.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Urbanismo</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/tecnologia.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/taxi.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Leis de trânsito</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/doutor.jpg" alt="Tecnologia"
+                                        width="80">
+                                        <h3>Medicina</h3>
+                                        <p>Incidunt nihil iure reiciendis, minus ex?</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Início da lateral -->
+                <div id="lateral">
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa_conteudo">
+                            <ul>
+                                <li><a href="">Adriana Soares</a></li>
+                                <li><a href="">Bruno Cipriano</a></li>
+                                <li><a href="">Carlos Jordani</a></li>
+                                <li><a href="">Denise Silva</a></li>
+                                <li><a href="">Elloane Raquel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa_conteudo">
+                            <form>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email"
+                                    id="email" placeholder="E-mail">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" value="Cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div><!-- Fim da lateral -->
+            </div><!-- Fim do conteúdo -->
+        </div><!-- Fim do container -->
+        <div id="container-rodape" style="clear: both;">
+            <div id="rodape">
+                &copy; Copyright 2020-2025 Notícias Cidade
+            </div>
         </div>
-
     </body>
 </html>
