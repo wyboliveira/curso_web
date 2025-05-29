@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:  #ffffff url(../images/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png);
+    text-indent: -3000px;
+}
+
+/* Barra de navegação */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #ffffff;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: #ffffff;
+    background: #de003e;
+    cursor: text;
+}
+
+/* Configura layout de três colunas */
+#conteudo {
+    margin-top: 60px;
+    background: #bebebe;
+}
+
+/* Essa lateral é colocada na esquerda usando um afastamento de margem
+em conjunto com o #primario, para que leitores automatizados leiam
+primeiro o conteúdo da div #primario */
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#duas_colunas #primario {
+    width: 555px;
+}
+
+#uma_coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin:  0 0 20px 15px;
+}
+/* Formatação caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.caixa_conteudo {
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Menus laterais */
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* Formatar formulários */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #ffffff;
+}
+
+input.submit {
+    width: 80px;
+    color: #ffffff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+
+}
+
+/* Formatando imagens */
+
+img.imagem_principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #ffffff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+}
+
+/* Formatando lista de notícias */
+
+#lista_noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 62px;
+}
+
+#lista_noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista_noticias li a {
+    text-decoration: none;
+}
+
+#lista_noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista_noticias li a p {
+    font-size: 0.7em;
+}
+
+#lista_noticias li:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+/* Rodapé */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #ffffff;
+}
