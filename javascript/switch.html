@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Switch</title>
+</head>
+<body>
+<script>
+
+    //var param = 6
+    var param = prompt('Digite um número:')
+
+    switch (parseInt(param)){
+
+    // switch faz comparação por objeto idêntico
+    case 1:
+        document.write('Parâmetro 1')
+        break
+    case 2:
+        document.write('Parâmetro 2')
+        break;
+    case 3:
+        document.write('Parâmetro 3')
+        break;
+    case 4:
+        document.write('Parâmetro 4')
+        break;
+    default:
+        // Se param não foi encontrado
+        document.write('Nenhum dado encontrado')
+    }
+</script>
+</body>
+</html>
