@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Aula 172</title>
+</head>
+<body>
+
+    <h3 id="result"></h3>
+    
+<script>
+let pergunta = 'Qual é a sua idade?';
+console.log(pergunta);
+
+// Solicita a idade do usuário
+let idade = prompt(pergunta);
+
+if (idade !== null) {
+    idade = Number(idade);
+    if ((idade >= 0) && (idade < 15)) {
+        document.getElementById("result").innerHTML = 'Criança';
+    }
+    else if ((idade >= 15) && (idade < 30)) {
+        document.getElementById("result").innerHTML = 'Jovem';
+    }
+    else if ((idade >= 30) && (idade < 60)) {
+        document.getElementById("result").innerHTML = 'Adulto';
+    } else if (idade >= 60) {
+        document.getElementById("result").innerHTML = 'Idoso';
+    }
+}
+</script>
+
+
+</body>
+</html>
